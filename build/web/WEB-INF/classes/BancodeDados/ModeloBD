@@ -1,0 +1,25 @@
+CREATE DATABASE caixaacustica;
+
+
+CREATE TABLE Projetar
+(
+    Qts FLOAT(6) NOT NULL,
+    Qes FLOAT(6) NOT NULL,
+    Vas FLOAT(6) NOT NULL,
+    Fs FLOAT(6) NOT NULL,
+    Sd FLOAT(6) NOT NULL,
+    Xmax FLOAT(6) NOT NULL,
+    Wrms FLOAT(6) NOT NULL,
+    Qtc FLOAT(6) NOT NULL,
+    VolumeIntSelado FLOAT(6) NOT NULL,
+    FreqRessonanSelado FLOAT(6) NOT NULL,
+    FreqCorteIntSelado FLOAT(6) NOT NULL,
+    VolumeIntGraves FLOAT(6) NOT NULL,
+    FreqRessonanGraves FLOAT(6) NOT NULL,
+    FreqCorteInfGraves FLOAT(6) NOT NULL,
+    DiamDuctos FLOAT(6) NOT NULL,
+    CompDuctos FLOAT(6) NOT NULL,
+    NumDuctos FLOAT(6) NOT NULL,
+       
+);
+
